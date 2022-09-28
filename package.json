@@ -25,6 +25,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "@codesandbox/sandpack-react": "^1.8.4",
     "monaco-editor": "^0.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

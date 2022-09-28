@@ -1,6 +1,5 @@
 import { getFileIconLabel } from "./file-utils";
 
-
 export class Template {
   /**
    *Creates an instance of Template.
@@ -14,7 +13,8 @@ export class Template {
     container.appendChild(this.monacoIconLabel);
 
     const labelDescriptionContainer = document.createElement("div");
-    labelDescriptionContainer.className = "monaco-icon-label-description-container";
+    labelDescriptionContainer.className =
+      "monaco-icon-label-description-container";
     this.monacoIconLabel.appendChild(labelDescriptionContainer);
 
     this.label = document.createElement("a");
@@ -31,10 +31,7 @@ export class Template {
   }
 }
 
-
-
 export class FileTemplate extends Template {
-
   /**
    *Creates an instance of FileTemplate.
    * @param {HTMLElement} container
@@ -61,9 +58,8 @@ export class FileTemplate extends Template {
 
     const icon = getFileIconLabel(file.name, file.isDirectory);
 
-
-    if( !file.isDirectory ){
-        this.monacoIconLabel.classList.add("file-icon");
+    if (!file.isDirectory) {
+      this.monacoIconLabel.classList.add("file-icon");
     }
 
     if (icon) {
@@ -72,6 +68,5 @@ export class FileTemplate extends Template {
 
     this.label.innerHTML = file.name;
     this.monacoIconLabel.title = file.path;
-    
   }
 }
