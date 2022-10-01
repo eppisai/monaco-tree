@@ -49,6 +49,201 @@ const directoryListing = [
     "public/templates/users.html",
   ];
 
+  const TempFiles = {
+    "changelog.txt" : {
+        code: 'hye there',
+        hidden: true,
+    },
+    "debug.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "license.txt": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "readme.md": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "release.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "controllers/api.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "controllers/chat.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "controllers/default.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "databases/channels.json": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "databases/users.json": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/auth.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/convertors.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/globals.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/helpers.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/localization.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/merge.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/operations.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/scheduler.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/account.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/channels.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/favorites.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/login.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/messages.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/tasks.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/users.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/favicon.ico": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/icon.png": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "views/index.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "views/login.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "views/notification.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/css/bootstrap.min.css": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/css/default.css": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/css/ui.css": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/files.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/formblacklist.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/formchannel.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/formuser.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/help.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/img/preloader.gif": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/photos/face.jpg": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/js/default.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/js/jctajr.min.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/js/ui.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/chat.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/favorite.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/settings.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/tasks.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/users.html": {
+        code: 'hye there',
+        hidden: false,
+    },
+};
+
 const Files = {
     "changelog.txt" : {
         code: 'hye there',
@@ -74,6 +269,174 @@ const Files = {
         code: 'hye there',
         hidden: true,
     },
+    "controllers/chat.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "controllers/default.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "databases/channels.json": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "databases/users.json": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/auth.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/convertors.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/globals.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/helpers.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/localization.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/merge.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/operations.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "definitions/scheduler.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/account.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/channels.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/favorites.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/login.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/messages.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/tasks.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "models/users.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/favicon.ico": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/icon.png": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "views/index.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "views/login.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "views/notification.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/css/bootstrap.min.css": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/css/default.css": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/css/ui.css": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/files.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/formblacklist.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/formchannel.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/formuser.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/forms/help.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/img/preloader.gif": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/photos/face.jpg": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/js/default.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/js/jctajr.min.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/js/ui.js": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/chat.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/favorite.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/settings.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/tasks.html": {
+        code: 'hye there',
+        hidden: true,
+    },
+    "public/templates/users.html": {
+        code: 'hye there',
+        hidden: false,
+    },
 };
-export { directoryListing, Files };
+export { directoryListing, Files, TempFiles };
   

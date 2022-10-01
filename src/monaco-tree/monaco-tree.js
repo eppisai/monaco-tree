@@ -14,7 +14,7 @@ class MonacoTree extends React.Component {
     this.tree.model.setInput(this.props.directory);
     this.tree.model.onDidSelect((e) => {
       if (e.selection.length) {
-        this.props.onClickFile(e.selection[0]);
+        this.props.onClickFile(e.selection[0], e.selection[0].path);
       }
     });
     document.addEventListener("layout", this.onLayout);
